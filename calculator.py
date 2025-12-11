@@ -5,3 +5,9 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Zero division is impossible")
     return a / b
+
+def multiply(a, b):
+    return a * b
+
+def sumtract(a, b):
+    return a - b
